@@ -14,6 +14,8 @@ st.markdown("---")
 inputs = []
 cols = st.columns(3)
 
+
+
 for i, feature in enumerate(FEATURES):
     col = cols[i % 3]
     val = col.number_input(
